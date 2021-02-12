@@ -1,0 +1,20 @@
+# inputs
+a b c
+
+# wires
+d e f g h i j k
+
+# outputs
+y z
+
+# logics
+d = b
+e = b
+g = a & d
+f = e ^ c
+h = g
+j = g
+i = f
+k = f
+y = h and i
+z = j or k
